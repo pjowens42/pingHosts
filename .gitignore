@@ -1,0 +1,30 @@
+# Binaries for programs and plugins
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Test binaries
+*_test
+
+# Output of `go build`
+*.out
+
+# Dependency directories (Go modules)
+# This is usually handled by `go.mod` and `go.sum`, but if you have a
+# vendor directory, you might want to ignore it.
+# vendor/
+
+# Editor/IDE specific files
+.vscode/
+.idea/
+*.sublime-workspace
+*.swp
+*.bak
+*.swo
+
+# macOS specific files
+.DS_Store
+
+# Logs
+*.log
